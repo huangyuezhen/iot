@@ -1,0 +1,10 @@
+site_name: iot
+dev_addr: 0.0.0.0:8889
+
+
+pages:
+    - home: 'index.md'
+    - design: '标识平台技术方案.md'
+    - tag: 'tag.md'
+
+theme: readthedocs

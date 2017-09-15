@@ -1,0 +1,31 @@
+serve:
+    debug: True
+    log_path: /cnicg/iot/logs
+    run_path: /cnicg/iot/run
+    static_path: /cnicg/iot/www
+    img_prefix: /static/img/
+
+database:
+    conn: 'mysql+pymysql://bidong:wifi_bd*@172.16.44.2:3306/iot?charset=utf8'
+    #conn: mysql+pymysql://iot:iot_pwd@localhost:6006/iot
+    encoding: utf-8
+    pool_recycle: 3600
+    echo : False
+
+redis :
+    host: 127.0.0.1
+    port:  6379
+    password : cnicggis_!@#
+
+MSG_URL: http://14.23.171.10/notify
+
+Alidayu:
+    appkey : "23849316"
+    secret : "55183c1cf8dd1072a4775640a95fc6b3"
+    sign_name : "国家标识平台"
+    template_code : "SMS_67251271"
+
+
+
+
+
